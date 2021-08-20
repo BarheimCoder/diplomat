@@ -1,0 +1,47 @@
+.navbar-dark {
+	.navbar-nav .nav-link {
+		color: $white;
+		font-weight: 700;
+	}
+}
+@include media-breakpoint-down(md) {
+	nav .nav-item, .mobile-close {
+		font-size: 2rem;
+	}
+}
+/** Slide in Nav **/
+.navbar-collapse {
+	position: fixed;
+	top: 0px;
+	background: $primary;
+	left: 100%;
+	padding: 15px;
+	width: 100%;
+	transition: all 0.4s ease;
+	z-index: 1000;
+	height: 100%;
+	display: block;
+	@include media-breakpoint-up(md) {
+		position: relative;
+		left: initial;
+		background: none;
+		.navbar-nav {
+			margin: 0;
+		}
+	}
+}
+.mobile-close {
+	border: none;
+	text-align: right;
+	background: none;
+	color: white;
+}
+.navbar-collapse.collapsing {
+	height: 100% !important;
+	margin-left: 50%;
+	left: 50%;
+	transition: all 0.2s ease;
+}
+.navbar-collapse.show {
+	left: 0;
+}

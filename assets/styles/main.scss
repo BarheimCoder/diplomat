@@ -1,0 +1,19 @@
+// Variables and overrides for Bootstrap
+@import 'variables.scss';
+
+// Bootstrap from NPM
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Varela+Round&display=swap');
+
+// Woocommerce related styles
+@import 'woocommerce.scss';
+
+// Navigation CSS for both header and footer
+@import 'nav.scss';
+
+// A style-reset for Store Finder plugin
+@import 'storefinder.scss';
+
+// For any additional CSS
+@import 'custom.scss';

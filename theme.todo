@@ -1,0 +1,48 @@
+Missing Features:
+  ☐ Search
+  ☐ Bootstrap Carousel support
+  ✔ Git @done (21-07-19 15:31)
+
+/********** Overview **********/ 
+Theme Core:
+  ✔ Folder structure @done (21-07-19 15:36)
+  ☐ SASS files sorted
+  ☐ GULP file tweaks for new structure
+  ✔ Template naming, image, etc @done (21-07-19 15:48)
+
+Wordpress Core:
+  ☐ Search support
+  ✔ Posts support and functional navigation (prev, next, tags, categories) @done (21-07-19 15:47)
+  ☐ Multisite support
+
+Template Parts:
+  ✔ Category / Tag menu, works for both through 'ifs' @done (21-07-19 15:42)
+  ☐ Add google maps support with ACF setup for coordinates, support for multiple pins
+  ☐ "Back to top" arrow (if possible, with setting to enable on dashboard)
+
+Functions:
+  ☐ Document and clean woocommerce.php functions
+  ☐ Clean up theme-support.php
+
+Nav:
+  ✔ Social Icons @done (21-07-19 15:36)
+  ✔ WooCommerce Account / Basket Links @done (21-07-19 15:36)
+  ✔ Mobile Nav (breakpoint lg) @done (21-07-19 15:36)
+  ☐ Full screen slide nav on mobile
+
+Woocommerce Core:
+  ✔ Quantity buttons added via hooks @done (21-07-19 15:36)
+  ✔ cart.php template to create a better responsive cart UX @done (21-07-19 15:38)
+  ✔ Enabled gallery and zoom in theme-support.php @done (21-07-19 15:48)
+  ☐ Remove tabbed content, likely new template for single product.
+
+/********** Other **********/ 
+Future Notes:
+  ☐ Change col-1 col-2 from templates/checkout/form-checkout.php, templates/myaccount/form-login.php, templates/order/order-details-customer.php to fix conflict with bootstrap classes
+  ☐ Possibly change all woocommerce classes for bootstrap ones
+  ☐ WooCommerce uses archive.php, post navigation has to be removed
+
+ Styles:
+  ☐ Add floats to posts navigation
+  ☐ Remove quantity arrows from woocommerce products and cart
+  ☐ Turn woocommerce buttons into bootstrap ones (btn-primary)

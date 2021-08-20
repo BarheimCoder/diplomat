@@ -1,0 +1,52 @@
+/*************** WP Store Finder Plugin ******************/
+/*********************************************************/
+/* Resets */
+label[for="wpsl-search-input"],
+label[for="wpsl-results-dropdown"],
+label[for="wpsl-radius-dropdown"],
+label[for="wpsl-results-dropdown"] {
+	width: fit-content !important;
+	margin-top: 5px !important;
+}
+
+.wpsl-dropdown,
+#wpsl-search-input {
+	margin-right: 1.5rem !important;
+}
+
+#wpsl-search-wrap {
+	width: fit-content;
+}
+
+.wpsl-geolocation-run {
+	display: flex;
+	justify-content: center;
+}
+
+.wpsl-dropdown {
+	border-radius: 0;
+}
+
+input#wpsl-search-input {
+	height: 2.5rem;
+}
+
+.wpsl-directions {
+	margin-top: 1rem;
+}
+
+/* Button Styling + Turn Directions into a Button */
+#wpsl-search-btn,
+.wpsl-directions {
+	background: $primary;
+	border: 0px !important;
+	border-radius: 0 !important;
+	padding: 0.5rem 2rem;
+	color: $white;
+	border-radius: 0 !important;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: rgba($primary, 0.8);
+		transition: all .2s ease-in-out;
+	}
+}
