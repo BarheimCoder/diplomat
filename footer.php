@@ -24,14 +24,6 @@
 				</div>
 			</div>
 		</div>
-
-		<footer class="bg-secondary py-2">
-			<div class="container">
-				<div class="d-flex justify-content-center text-light">
-					<a class="text-light" href="https://portfoliodesign.net" class="portfolio" title="Website Design and Development in Bolton by Portfolio." target="_blank" rel="noopener">Website by <strong>Portfolio.</strong></a>
-				</div>
-			</div>
-		</footer>
 	</div>
 	<?php wp_footer(); ?>
 	<?php //include('template-parts/back-to-top.php'); ?>
